@@ -156,9 +156,15 @@
 ---
 
 ## SpringBoot
+### Spring Boot 1.0
+> Java 1.6 이상  
+> Spring Framework 4.0  
+> Tomcat: 7.0  
+
 ### Spring Boot 2.0
-> **Java 8 이상 필수**  
-> Spring Boot 2.0은 Java 8 이상을 필수로 요구합니다. Java 8의 기능과 향상된 성능을 활용할 수 있습니다.
+> Java 8 이상  
+> Spring Framework 5.0  
+> Tomcat: 8.5
 > 
 > **모듈화 및 조립 가능한 스타터**  
 > Spring Boot 2.0에서는 더 세분화된 모듈화와 조립 가능한 스타터(Starter) 기능이 도입되었습니다. 프로젝트에 필요한 모듈과 의존성을 선택하여 시작할 수 있습니다.
@@ -183,6 +189,10 @@
 > Spring Boot 2.0에서는 Actuator 모듈이 업데이트되었습니다. 애플리케이션의 상태, 메트릭, 로그, 환경 설정 등을 모니터링하고 관리할 수 있는 기능이 개선되었습니다.
 
 ### Spring Boot 2.1
+> Java 11 지원  
+> Spring Framework 5.1  
+> Tomcat: 9
+> 
 > **Kotlin 지원**  
 > Spring Boot 2.1부터는 Kotlin 언어를 공식적으로 지원합니다. Kotlin을 사용하여 Spring Boot 애플리케이션을 개발할 수 있습니다.
 > 
@@ -209,6 +219,10 @@
 > Spring Boot 2.1에서는 로깅 초기화를 지연시키는 기능이 추가되어 애플리케이션의 시작 속도를 향상시킵니다.
 
 ### Spring Boot 2.2
+> Java 13 지원  
+> Spring Framework 5.2  
+> Tomcat: 9
+>
 > **Spring Data R2DBC 지원**  
 > Spring Boot 2.2에서는 Spring Data R2DBC를 지원합니다. R2DBC(Reactive Relational Database Connectivity)를 사용하여 
 > 리액티브 SQL 데이터베이스 액세스를 가능하게 합니다.
@@ -237,6 +251,10 @@
 > Spring Boot 2.2에서는 성능 개선이 이루어졌습니다. 애플리케이션의 시작 속도와 실행 속도가 향상되었습니다.
 
 ### Spring Boot 2.3
+> Java 15 지원  
+> Spring Framework 5.2  
+> Tomcat: 9
+>
 > **Gradle**  
 > Gradle 6.3 이상 지원 (5.6.x는 지원은 하지만 deprecated 됨.)
 > 
@@ -280,11 +298,9 @@
 > Spring Boot 2.3에서는 Spring Security 의 버전이 업데이트되었습니다. 보안 관련 기능과 설정의 편의성과 유연성이 향상되었습니다.
 
 ### Spring Boot 2.4
-> **Java 15 지원**  
-> Spirng boot 2.4는 Java 15를 지원한다. 최소 지원 버전은 Java 8이다.
-> 
-> **Spring Framework 5.3**  
-> Spring Boot 2.4는 Spring Framework 5.3을 기반으로 합니다. Spring Framework 5.3의 새로운 기능과 개선 사항을 활용할 수 있습니다.
+> Java 15 지원  
+> Spring Framework 5.2  
+> Tomcat: 9
 > 
 > **업데이트된 의존성 버전**  
 > Spring Boot 2.4에서는 다양한 의존성 라이브러리의 버전이 업데이트되었습니다. 이를 통해 더 최신의 라이브러리와 기능을 사용할 수 있습니다.
@@ -307,6 +323,11 @@
 > Spring Boot 2.4에서는 도커(Docker) 컨테이너 환경에서 애플리케이션을 실행하고 관리하기 위한 기능과 지원이 개선되었습니다.
 
 ### Spring Boot 2.5
+> Java 16 지원  
+> Spring Framework 5.2  
+> Tomcat 9  
+> Gradle 7.0  
+> 
 > **업데이트된 의존성 버전**  
 > Spring Boot 2.5에서는 다양한 의존성 라이브러리의 버전이 업데이트되었습니다. 이를 통해 더 최신의 라이브러리와 기능을 사용할 수 있습니다.
 > 
@@ -371,6 +392,10 @@
 > `@AutoConfigureMockMvc`로 주석이 달린 클래스는 `WebTestClient`를 주입할 수 있다.  
 
 ### Spring Boot 2.7
+> Spring Framework 5.3  
+> Spring security 5.7  
+> Tomcat 9
+>
 > **WebSecurityConfigurerAdapter에서 SecurityFilterChain으로 마이그레이션**  
 > Spring Boot 2.7은 WebSecurityConfigurerAdapter를 더 이상 사용하지 않는 Spring Security 5.7로 업그레이드한다.  
 > WebSecurityConfigurerAdapter 없이 Spring Security를 설정하고 @WebMvcTest 와 같은 Spring Boot의 슬라이스 테스트를 사용할 때, 
