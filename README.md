@@ -1,5 +1,31 @@
 # spring-starter
 
+## SpringBoot 
+### SpringBoot 3.x -> 2.x 프로젝트로 전환
+> build.gradle
+> ```groovy
+> plugins {
+>     id 'java'
+>     id 'org.springframework.boot' version '2.7.18'
+>     id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+> }
+> 
+> java {
+>     sourceCompatibility = '11'
+> }
+> 
+> dependencies {
+>     ...
+>     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+> }
+> 
+> tasks.named('test') {
+>     useJUnitPlatform()
+> }
+> ``` 
+
+---
+
 ## Spring
 ### Spring 1.x
 > 초기 버전으로, EJB(Enterprise JavaBeans)에 대한 대안으로 제공됩니다.
